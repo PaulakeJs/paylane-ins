@@ -1,0 +1,238 @@
+ * {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html {
+  background-color: rgb(1, 14, 1);
+  color: rgb(16, 16, 16);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-image: url(./image1.jpg);
+  background-attachment: initial;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-radius: 5px;
+  z-index: 0.1;
+  width: 100%;
+}
+.text-area {
+  width: 450px;
+  margin-right: 90px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  align-items: center;
+  position: sticky;
+  z-index: 1;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  list-style-type: none;
+  padding: 5px;
+}
+a {
+  font-size: 14px;
+  color: green;
+  text-decoration: none;
+}
+.h-l {
+  font-size: 25px;
+  font-weight: 800px;
+}
+.about {
+  padding: 20px;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bg-i {
+  backdrop-filter: 80px;
+  z-index: 100;
+}
+.about-us {
+  margin-top: 20px;
+}
+
+.why {
+  padding: 20px;
+  margin-top: 70px;
+  color: white;
+}
+.one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-w {
+  width: 400px;
+  background-color: rgb(37, 36, 36);
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 3px black;
+  margin-right: 12px;
+  margin-top: 23px;
+  filter: blur();
+}
+.service {
+  padding: 20px;
+  margin-top: 10px;
+  color: white;
+}
+.img {
+  height: 400px;
+}
+.img-a {
+  height: 100%;
+}
+.s-head {
+  color: rgb(77, 244, 77);
+}
+.img-p {
+  text-align: center;
+}
+.team {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  padding: 5px;
+  align-items: center;
+}
+.t {
+  text-align: center;
+}
+.tm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.i {
+  width: 200px;
+  height: 200px;
+}
+.iat {
+  margin-right: 10px;
+  margin-top: 30px;
+}
+.images-a {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.contacts {
+  margin-top: 10px;
+  color: white;
+}
+.cont {
+  padding: 30px;
+}
+.contact-input {
+  width: 220px;
+  height: 60px;
+  padding: 10px;
+  background: transparent;
+  color: #fff;
+  border: 1px solid white;
+}
+.contact-input-2 {
+  width: 500px;
+  height: 60px;
+  padding: 10px;
+  background: transparent;
+  margin-top: 10px;
+  color: #fff;
+  border: 1px solid white;
+}
+
+.contact-input-3 {
+  width: 500px;
+  height: 200px;
+  padding: 10px;
+  background: transparent;
+  margin-top: 10px;
+  color: #fff;
+  margin-bottom: 20px;
+  border: 1px solid white;
+}
+.submit {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color: green;
+}
+.klk {
+  text-align: center;
+}
+.footer {
+  margin-top: 20px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  justify-content: space-between;
+  color: white;
+}
+.h-lxx {
+  color: gray;
+  font-size: 12px;
+  margin-right: 7px;
+}
+
+@media (max-width: 600px) {
+  html {
+    background-color:white;
+    color: black;
+    background-image: none;
+  }
+  .one{
+    display: block;
+  }
+  .contacts{
+    background-color: black;
+  }
+  .services{
+    color: black;
+
+  }.text-area{
+    color: black;
+  }.conta{
+    width: 100%;
+    padding: 0px;
+  }
+  .tm{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }.contact-input{
+    width: 100%;
+  }
+  .img{
+    display: none;
+  }
+  .smo{
+    color: black;
+  }
+  .team{
+    display: block;
+    color: black;
+  }
+  .james{
+  color: rgb(77, 244, 77);}
+  a{
+  color: rgb(77, 244, 77);
+  }
+}
